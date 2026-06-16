@@ -37,7 +37,7 @@ class Device
             }
 
             $logs[] = [
-                'employee_id' => $log['id'],
+                'employee_code' => $log['id'],
                 'punch_time'  => $timestamp
             ];
         }
